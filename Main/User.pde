@@ -26,8 +26,12 @@ public class User {
   public void increaseCoins() {
     coins += 1;
   }
-  
-   public void increaseScore(){
-      score.setScore(1); 
+
+  public void increaseScore() {
+    score.setScore(1);
+  }
+
+  public String toString() {
+    return username + "|" + score.score + "|" + coins;
   }
 }

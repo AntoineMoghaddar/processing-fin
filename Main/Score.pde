@@ -1,5 +1,5 @@
 public class Score {
-  private int score, UserId;
+  private int score;
 
     public Score(int score) {
     this.score = score;
